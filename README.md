@@ -107,6 +107,7 @@ Due to confidentiality and government data policies:
 ## 📬 Contact
 
 **Jay Vardhan Sharma**  
+vardhanworks14@gmail.com
 B.Tech, Computer Science Engineering  
 Birla Institute of Technology, Mesra  
 
