@@ -2,7 +2,7 @@
 ML-based fraud detection for government audit data using Isolation Forest and statistical analysis, reducing audit scope to the top 4–5% high-risk cases.
 # Fraud Detection in Government Financial Audit Data
 
-This repository contains the work completed during my **AI/ML & Data Analyst Internship** at the **Office of the Principal Accountant General (A&E), Jaipur, Rajasthan** from **May 2025 to July 2025**.
+This repository contains a sample of my work completed during my **AI/ML & Data Analyst Internship** at the **Office of the Principal Accountant General (A&E), Jaipur, Rajasthan** from **May 2025 to July 2025**.
 
 The project focuses on building an **interpretable, ML-driven fraud detection system** for large-scale government financial transaction data, designed to assist auditors in identifying high-risk cases efficiently.
 
