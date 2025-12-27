@@ -2,77 +2,79 @@
 ML-based fraud detection for government audit data using Isolation Forest and statistical analysis, reducing audit scope to the top 4–5% high-risk cases.
 # Fraud Detection in Government Financial Audit Data
 
-This repository contains a sample of my work completed during my **AI/ML & Data Analyst Internship** at the **Office of the Principal Accountant General (A&E), Jaipur, Rajasthan** from **May 2025 to July 2025**.
+This repository contains the work completed during my **AI/ML & Data Analyst Internship** at the **Office of the Principal Accountant General (A&E), Jaipur, Rajasthan** from **May 2025 to July 2025**.
 
-The project focuses on building an **interpretable, ML-driven fraud detection system** for large-scale government financial transaction data, designed to assist auditors in identifying high-risk cases efficiently.
+The project focuses on building an **interpretable, data-driven fraud detection system** for large-scale government financial transaction data, designed to assist auditors in identifying high-risk cases efficiently.
 
 ---
 
 ## 📌 Project Overview
 
 Government financial audits involve reviewing massive volumes of transaction data, where traditional manual scanning is time-consuming and inefficient.  
-This project addresses that challenge by combining:
+This project addresses that challenge through a **data-driven approach** that combines:
 
-- **Machine Learning–based anomaly detection**
-- **Statistical validation techniques**
-- **Domain-driven financial rules**
+- Machine learning–based anomaly detection  
+- Statistical validation techniques  
+- Domain-specific financial rules  
 
-The system narrows audit attention to a **small, high-risk subset (≈4–5%)** of transactions while preserving transparency and explainability for human auditors.
+The system narrows audit attention to a **small, high-risk subset (approximately 4–5%)** of transactions while preserving transparency and explainability for human auditors.
 
 ---
 
 ## 🧠 Methodology
 
 ### 1. Data Processing & Feature Engineering
-Engineered **40+ domain-specific features**, including:
 
-- **Election proximity indicators**
-- **GST & IT deduction flags**
-- **Rolling transaction statistics**
-- **Temporal and cyclic patterns**
-- **Statistical deviation measures**
-- **Interaction and aggregation features**
+A **data-driven and domain-aware feature engineering process** was followed, resulting in **40+ engineered features**, including:
 
-These features were designed in consultation with audit workflows to reflect real-world financial risk signals.
+- Election proximity indicators  
+- GST and IT deduction flags  
+- Rolling transaction window statistics  
+- Temporal and cyclic behavior patterns  
+- Statistical deviation and interaction features  
+
+These features were designed to reflect real audit risk signals observed in government financial data.
 
 ---
 
-### 2. Anomaly Detection
-- Applied **Isolation Forest** for unsupervised anomaly detection
-- Integrated **Z-score logic** to validate statistical deviations
-- Implemented **duplicate transaction checks**
-- Used **rolling window mechanisms** to capture short-term irregularities
+### 2. Anomaly Detection & Risk Identification
 
-Each transaction receives a risk indication based on combined model and rule-based signals.
+- Applied **Isolation Forest** for unsupervised anomaly detection  
+- Integrated **Z-score–based statistical logic** to validate deviations  
+- Implemented **duplicate transaction checks**  
+- Used **rolling window mechanisms** to capture short-term irregularities  
+
+This hybrid, data-driven pipeline allows each transaction to be evaluated using both model-based and rule-based signals.
 
 ---
 
 ### 3. Visualization & Audit Support
-- Visualized anomalous spending behavior using **Matplotlib** and **Seaborn**
-- Generated plots to highlight:
-  - Sudden expenditure spikes
-  - Abnormal department-wise trends
-  - Temporal clustering of anomalies
 
-These visual insights support **human-in-the-loop audit decision-making**.
+- Visualized anomalous spending behavior using **Matplotlib** and **Seaborn**  
+- Generated plots to highlight:
+  - Sudden expenditure spikes  
+  - Abnormal department-wise trends  
+  - Temporal clustering of anomalies  
+
+These visualizations support **data-driven audit decision-making** and enhance interpretability for auditors.
 
 ---
 
 ## ⚙️ Key Outcomes
 
-- Replaced manual full-dataset scanning with targeted ML-driven screening
-- Reduced audit scope to **~4–5% high-risk transactions**
-- Improved efficiency while retaining interpretability
-- Designed the system to align with real government audit constraints
+- Replaced manual full-dataset scanning with ML-driven risk prioritization  
+- Reduced audit scope to the **top ~4–5% high-risk transactions**  
+- Improved audit efficiency while maintaining transparency  
+- Designed the system to align with real government audit workflows and constraints  
 
 ---
 
 ## 🧪 Tools & Technologies
 
-- **Python**
-- **Pandas, NumPy**
-- **Scikit-learn (Isolation Forest)**
-- **Matplotlib, Seaborn**
+- **Python**  
+- **Pandas, NumPy**  
+- **Scikit-learn (Isolation Forest)**  
+- **Matplotlib, Seaborn**  
 - **Statistical Analysis & Time-Series Techniques**
 
 ---
@@ -89,29 +91,31 @@ These visual insights support **human-in-the-loop audit decision-making**.
 ## ⚠️ Data Disclaimer
 
 Due to confidentiality and government data policies:
-- Actual financial datasets are **not included**
-- Any sample data (if present) is anonymized or synthetically generated
-- The focus of this repository is on **methodology, feature engineering, and system design**
+
+- Actual financial datasets are **not included**  
+- Any sample data (if present) is anonymized or synthetically generated  
+- This repository focuses on **methodology, feature engineering, and system design**
 
 ---
 
 ## 📈 Future Enhancements
 
-- Risk score calibration using auditor feedback
-- Explainability layers for anomaly reasoning
-- Office-level and department-level anomaly aggregation
-- Deployment-ready pipeline with logging and monitoring
+- Risk score calibration using auditor feedback  
+- Explainability layers for anomaly reasoning  
+- Office-level and department-level anomaly aggregation  
+- Deployment-ready pipeline with logging and monitoring  
 
 ---
 
 ## 📬 Contact
 
 **Jay Vardhan Sharma**  
-vardhanworks14@gmail.com
 B.Tech, Computer Science Engineering  
 Birla Institute of Technology, Mesra  
 
-Feel free to reach out for discussions related to:
-- Applied ML in public finance
-- Interpretable anomaly detection
-- Audit analytics systems
+📧 **Email:** vardhanworks14@gmail.com  
+
+For discussions related to:
+- Data-driven fraud detection  
+- Interpretable anomaly detection  
+- Audit analytics and public finance systems
